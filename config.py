@@ -6,10 +6,10 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7069135184:AAGU7SUh5UAmVfkkabMnBg4B7Lwt_-q5pR8")
 APP_ID = int(os.environ.get("APP_ID", "26258063"))
 API_HASH = os.environ.get("API_HASH", "be0a0e2ecd938bfc5401d35a399deeb7")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001933477841"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002440776976"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6497757690"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6307223516"))
 PORT = os.environ.get("PORT", "8019")
 
 #Database 
@@ -18,14 +18,14 @@ DB_NAME = os.environ.get("DATABASE_NAME", "codeflix_bots")
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "inshorturl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "2cb207531688bd3e4c143774c36caa00c4c46723")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "c0085d50d85c0ead2158e143bd69b4c5015b57f9")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/redlight_howto/2") 
+TUT_VID = os.environ.get("TUT_VID", "https://t.me/Tutorial_modijiurl/3") 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-100226487365"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
