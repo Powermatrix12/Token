@@ -141,8 +141,9 @@ async def start_command(client: Client, message: Message):
                 [[InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
                   InlineKeyboardButton('🍁 sᴇʀɪᴇsғʟɪx', url='https://t.me/Team_Netflix/40')]]
             )
-            await message.reply_text(
-                text=START_MSG.format(
+            await message.reply_photo(
+              photo=START_PIC,
+                caption =START_MSG.format(
                     first=message.from_user.first_name,
                     last=message.from_user.last_name,
                     username=None if not message.from_user.username else '@' + message.from_user.username,
@@ -150,8 +151,6 @@ async def start_command(client: Client, message: Message):
                     id=message.from_user.id
                 ),
                 reply_markup=reply_markup,
-                disable_web_page_preview=True,
-                quote=True
             )
 
         else:
@@ -202,8 +201,9 @@ async def not_joined(client: Client, message: Message):
     except IndexError:
         pass
 
-    await message.reply_text(
-        text = FORCE_MSG.format(
+    await message.reply_photo(
+    photo = FORCE_PIC,
+        caption = FORCE_MSG.format(
                 first = message.from_user.first_name,
                 last = message.from_user.last_name,
                 username = None if not message.from_user.username else '@' + message.from_user.username,
@@ -211,8 +211,6 @@ async def not_joined(client: Client, message: Message):
                 id = message.from_user.id
             ),
         reply_markup = InlineKeyboardMarkup(buttons),
-        quote = True,
-        disable_web_page_preview = True
     )
 
 @Bot.on_message(filters.command('users') & filters.private & filters.user(ADMINS))
