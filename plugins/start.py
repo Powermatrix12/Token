@@ -140,7 +140,7 @@ async def start_command(client: Client, message: Message):
         elif verify_status['is_verified']:
             reply_markup = InlineKeyboardMarkup(
                 [[InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
-                  InlineKeyboardButton('🍁 sᴇʀɪᴇsғʟɪx', url='https://t.me/Team_Netflix/40')]]
+                  InlineKeyboardButton('🍁 HD MOVIES', url='https://t.me/+zgKTqE-TN24yZjk1')]]
             )
             await message.reply_photo(
               photo=START_PIC,
