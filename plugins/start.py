@@ -35,7 +35,7 @@ from shortzy import Shortzy
 """add time in seconds for waiting before delete 
 1 min = 60, 2 min = 60 × 2 = 120, 5 min = 60 × 5 = 300"""
 # SECONDS = int(os.getenv("SECONDS", "86400"))
-SECONDS = int(os.getenv("SECONDS", "86400"))
+SECONDS = int(os.getenv("SECONDS", "180"))
 @Bot.on_message(filters.command('start') & filters.private & subscribed)
 async def start_command(client: Client, message: Message):
     id = message.from_user.id
@@ -140,7 +140,7 @@ async def start_command(client: Client, message: Message):
         elif verify_status['is_verified']:
             reply_markup = InlineKeyboardMarkup(
                 [[InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
-                  InlineKeyboardButton('🍁 HD MOVIES', url='https://t.me/+zgKTqE-TN24yZjk1')]]
+                  InlineKeyboardButton('🍁 ʜᴅᴍᴏᴠɪᴇs', url='https://t.me/+zgKTqE-TN24yZjk1')]]
             )
             await message.reply_photo(
               photo=START_PIC,
