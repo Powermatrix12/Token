@@ -3,30 +3,30 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7401282886:AAGH-YUOjo72X4HeOF9OaGCRkGHxfb_TLQw")
-APP_ID = int(os.environ.get("APP_ID", "26258063"))
-API_HASH = os.environ.get("API_HASH", "be0a0e2ecd938bfc5401d35a399deeb7")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002008354608"))
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7201537576:AAGFdTtaA272QHaaCu8Fz4hfuJ8sp-iQpc8")
+APP_ID = int(os.environ.get("APP_ID", "26590590"))
+API_HASH = os.environ.get("API_HASH", "4805ee1d57b1be7f5135e736c816a2d1")
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001992443365"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7328629001"))
 PORT = os.environ.get("PORT", "8049")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://dheerajsharma1316:2RIA8lR5sHRlDaxh@cluster0.sv7jok6.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Power123:34790@cluster0.fwoxo.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "codeflix_bots")
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "c0085d50d85c0ead2158e143bd69b4c5015b57f9")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "inshorturl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "a7bbb358e33d9962133d31e14129ab86af7c94ed")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/Tutorial_modijiurl/3") 
+TUT_VID = os.environ.get("TUT_VID", "https://t.me/middlenightdiaries/10") 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002215102799"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002001392051"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002206552452"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002042137942"))
 
 if FORCE_SUB_CHANNEL > FORCE_SUB_CHANNEL2:
     temp = FORCE_SUB_CHANNEL2 
@@ -39,10 +39,10 @@ START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180d3
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b9dcbd1.jpg")
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}, Thanks for using me :D @team_netflix ⚡️.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}, Thanks for using me :D @POWERMODOWNER ⚡️.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6497757690 6883721620 7328629001").split()):
+    for x in (os.environ.get("ADMINS", "5904478052").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
