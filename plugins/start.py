@@ -35,7 +35,7 @@ from shortzy import Shortzy
 """add time in seconds for waiting before delete 
 1 min = 60, 2 min = 60 × 2 = 120, 5 min = 60 × 5 = 300"""
 # SECONDS = int(os.getenv("SECONDS", "86400"))
-SECONDS = int(os.getenv("SECONDS", "120"))
+SECONDS = int(os.getenv("SECONDS", "57600"))
 @Bot.on_message(filters.command('start') & filters.private & subscribed)
 async def start_command(client: Client, message: Message):
     id = message.from_user.id
@@ -128,7 +128,7 @@ async def start_command(client: Client, message: Message):
                     pass
 
             SD = await message.reply_text("Bakka! Keep Supporting Us🥺😢!")
-            await asyncio.sleep(120)
+            await asyncio.sleep(57600)
 
             for snt_msg in snt_msgs:
                 try:
