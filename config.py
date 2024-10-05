@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7201537576:AAFX4e2Xm0uRRhCdX4G_Bz8gzlSzlRWEqg8")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7523336856:AAGY_DkXK2lhRomQVp1G457Fgp1NQJuhpN0")
 APP_ID = int(os.environ.get("APP_ID", "26590590"))
 API_HASH = os.environ.get("API_HASH", "4805ee1d57b1be7f5135e736c816a2d1")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001992443365"))
@@ -25,8 +25,8 @@ IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/middlenightdiaries/10") 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002001392051"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002042137942"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002028010489"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002220798354"))
 
 if FORCE_SUB_CHANNEL > FORCE_SUB_CHANNEL2:
     temp = FORCE_SUB_CHANNEL2 
