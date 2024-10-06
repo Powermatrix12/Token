@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7201537576:AAH3mjArvbpLpuFoyZ3Sw5mhi74Lc9RlGPQ")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7201537576:AAHlcMM7BZmr4wTvcyZXgNlu8gsor0o-4FI")
 APP_ID = int(os.environ.get("APP_ID", "29236567"))
 API_HASH = os.environ.get("API_HASH", "7df329734bf9530a2ee73dcc06dd0df9")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001992443365"))
