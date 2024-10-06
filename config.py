@@ -3,9 +3,9 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7201537576:AAEiY9RY35ea_P7nH7W0qAugHtAMj73vbnM")
-APP_ID = int(os.environ.get("APP_ID", "26590590"))
-API_HASH = os.environ.get("API_HASH", "4805ee1d57b1be7f5135e736c816a2d1")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7201537576:AAH3mjArvbpLpuFoyZ3Sw5mhi74Lc9RlGPQ")
+APP_ID = int(os.environ.get("APP_ID", "29236567"))
+API_HASH = os.environ.get("API_HASH", "7df329734bf9530a2ee73dcc06dd0df9")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001992443365"))
 
 #OWNER ID
@@ -13,8 +13,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5904478052"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Power123:34790@cluster0.fwoxo.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "codeflix_bots")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://zuuvou:XNWdDOsGFprx7Cnw@clusterop.pnyvj.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DATABASE_NAME", "clusterop")
 
 #Shortner (token system) 
 
