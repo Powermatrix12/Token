@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7201537576:AAGUHGdSUvRAQeW_ymohmw97uF3T34khmdg")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7201537576:AAHhclDB2v82_vL0uRzwH6qzcBkqmDNgxug")
 APP_ID = int(os.environ.get("APP_ID", "29236567"))
 API_HASH = os.environ.get("API_HASH", "7df329734bf9530a2ee73dcc06dd0df9")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001992443365"))
@@ -13,7 +13,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5904478052"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://nshubh345:1FmseyW0TKaWNMNo@cluster0.pgewb.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://katay57920:wz3U1N6lG8DKsDBx@clusterex.npb0e.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "clusterop")
 
 #Shortner (token system) 
