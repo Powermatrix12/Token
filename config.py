@@ -3,14 +3,14 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7201537576:AAGRScmRz8pLy69FG4VcpStBZI6toJqPEjM")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7201537576:AAHMUtxQVgjMlAIjYFxwo6_BzeTekmrBhzE")
 APP_ID = int(os.environ.get("APP_ID", "29236567"))
 API_HASH = os.environ.get("API_HASH", "7df329734bf9530a2ee73dcc06dd0df9")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001992443365"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5904478052"))
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "7777")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://katay57920:wz3U1N6lG8DKsDBx@clusterex.npb0e.mongodb.net/?retryWrites=true&w=majority")
