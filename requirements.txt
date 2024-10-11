@@ -1,4 +1,3 @@
-git+https://github.com/youesky/pyrogram
 # --- For-Bot-Working --------- #
 pyrofork==2.3.38
 pyrogram
